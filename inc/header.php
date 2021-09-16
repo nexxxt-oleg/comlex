@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/lib.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/lib.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <title>complex</title>
 </head>
