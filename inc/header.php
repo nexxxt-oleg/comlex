@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/lib.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/lib.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 
     <title>complex</title>
 </head>
@@ -216,7 +216,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat1.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat1.svg"/>
                                             </div>
                                             Тепловое оборудование
                                         </a>
@@ -226,7 +226,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat2.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat2.svg"/>
                                             </div>
                                             Хлебопекарное и кондитерское
                                         </a>
@@ -236,7 +236,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat3.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat3.svg"/>
                                             </div>
                                             Посудомоечное оборудование
                                         </a>
@@ -246,7 +246,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat4.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat4.svg"/>
                                             </div>
                                             Электромеханическое
                                         </a>
@@ -256,7 +256,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat5.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat5.svg"/>
                                             </div>
                                             Оборудование для бара
                                         </a>
@@ -266,7 +266,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat6.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat6.svg"/>
                                             </div>
                                             Холодильное оборудование
                                         </a>
@@ -276,7 +276,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat7.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat7.svg"/>
                                             </div>
                                             Оборудование для фаст-фуда
                                         </a>
@@ -286,7 +286,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat8.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat8.svg"/>
                                             </div>
                                             Нейтральное оборудование
                                         </a>
@@ -296,7 +296,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat9.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat9.svg"/>
                                             </div>
                                             Упаковочное оборудование
                                         </a>
@@ -306,7 +306,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat10.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat10.svg"/>
                                             </div>
                                             Весовое оборудование
                                         </a>
@@ -316,7 +316,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat11.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat11.svg"/>
                                             </div>
                                             Линии раздачи
                                         </a>
@@ -326,7 +326,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat12.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat12.svg"/>
                                             </div>
                                             Салат-бары, шведские столы
                                         </a>
@@ -336,7 +336,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat13.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat13.svg"/>
                                             </div>
                                             Прочее оборудование
                                         </a>
@@ -346,7 +346,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat14.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat14.svg"/>
                                             </div>
                                             Оборудование для прачечной
                                         </a>
@@ -356,7 +356,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat15.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat15.svg"/>
                                             </div>
                                             Посуда и инвентарь
                                         </a>
@@ -366,7 +366,7 @@
                                             <div class="complex__catalog-nav__list__item__ico">
                                                 <img width="32" height="32"
                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                     class="lazy" alt="" data-src="../img/cat16.svg"/>
+                                                     class="lazy" alt="" data-src="./img/cat16.svg"/>
                                             </div>
                                             Торговое оборудование
                                         </a>

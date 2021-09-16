@@ -317,7 +317,7 @@
 </div>
 
 
-<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
@@ -325,8 +325,8 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
 />
-<script src="../js/lib.js"></script>
-<script src="../js/main.js"></script>
+<script src="./js/lib.js"></script>
+<script src="./js/main.js"></script>
 <?php
 include_once __DIR__ . '/sprite.php';
 ?>
