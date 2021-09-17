@@ -34,8 +34,14 @@ include_once __DIR__ . '/inc/header.php';
                         <span>Индивидуальный подход к <br> каждому клиенту!</span>
                     </div>
                     <div class="complex__home-banner__item__bottom-img">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy" alt="" data-src="./img/baner3.png"/>
+
+                        <picture>
+                            <source media="(max-width: 768px)" data-srcset="./img/baner3_mob.png"/>
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                 class="lazy" alt="" data-src="./img/baner3.png"/>
+                        </picture>
+
+
                     </div>
                 </a>
                 <a href=""
@@ -124,7 +130,7 @@ include_once __DIR__ . '/inc/header.php';
                     </div>
                 </a>
             </div>
-            <div class="col col-c5 d-md-none d-none d-lg-block d-xl-block fpad30">
+            <div class="col col-c5 fpad30">
                 <a href="" class="complex__card">
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                          class="lazy complex__card__pic"
@@ -1118,387 +1124,390 @@ include_once __DIR__ . '/inc/header.php';
                 </a>
             </div>
         </div>
-<div class="complex__section-brands">
-        <div class="complex__title d-flex align-items-center">
-            Подбор оборудования по производителю
-            <a href="" class="complex__more-link ml-auto">Все производители</a>
-        </div>
-        <div class="complex__brand-slider mb-30 complex__slider-full">
-            <div class="swiper" id="sliderBrands">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="nav complex__brand-slider__col">
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="complex__brand-item">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                         class="lazy"
-                                         alt=""
-                                         data-src="./img/brand.jpg"
-                                         data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="complex__section-brands">
+            <div class="complex__title d-flex align-items-center">
+                Подбор оборудования по производителю
+                <a href="" class="complex__more-link ml-auto">Все производители</a>
+            </div>
+            <div class="complex__brand-slider mb-30 complex__slider-full">
+                <div class="swiper" id="sliderBrands">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="nav complex__brand-slider__col">
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="complex__brand-item">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                             class="lazy"
+                                             alt=""
+                                             data-src="./img/brand.jpg"
+                                             data-srcset="./img/brand.jpg 1x, ./img/brand@2.jpg 2x"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 
-                </div>
-                <div class="button-prev complex__slider-nav">
-                    <svg width="7" height="14" class="ico">
-                        <use xlink:href="#svg-left"></use>
-                    </svg>
-                </div>
-                <div class="button-next complex__slider-nav">
-                    <svg width="7" height="14" class="ico">
-                        <use xlink:href="#svg-right"></use>
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <div class="fpad50">
-            <div class="complex__catalog-nav__header__search-col">
-                <form action="" class="complex__form complex__form--search">
-                    <input type="text" required="" class="complex__form__inp" placeholder="Поиск по каталогу">
-                    <button class="complex__form__submit-s">
-                        <svg width="18" height="18" class="ico">
-                            <use xlink:href="#svg-search"></use>
+                    </div>
+                    <div class="button-prev complex__slider-nav">
+                        <svg width="7" height="14" class="ico">
+                            <use xlink:href="#svg-left"></use>
                         </svg>
-                    </button>
-                </form>
-                <div class="complex__catalog-nav__header__example">
-                    Например, <a href="">Gemlux</a>
+                    </div>
+                    <div class="button-next complex__slider-nav">
+                        <svg width="7" height="14" class="ico">
+                            <use xlink:href="#svg-right"></use>
+                        </svg>
+                    </div>
                 </div>
-                <div class="complex__catalog-nav__header__search-col__res">
+            </div>
+            <div class="d-xl-none d-lg-none d-sm-none d-block fpad30">
+                <a href="" class="complex__more-link">Все производители</a>
+            </div>
+            <div class="fpad50">
+                <div class="complex__catalog-nav__header__search-col">
+                    <form action="" class="complex__form complex__form--search">
+                        <input type="text" required="" class="complex__form__inp" placeholder="Поиск по каталогу">
+                        <button class="complex__form__submit-s">
+                            <svg width="18" height="18" class="ico">
+                                <use xlink:href="#svg-search"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="complex__catalog-nav__header__example">
+                        Например, <a href="">Gemlux</a>
+                    </div>
+                    <div class="complex__catalog-nav__header__search-col__res">
+                    </div>
                 </div>
             </div>
         </div>
-</div>
         <div class="complex__title ">
             Готовые решения для вашего бизнеса
         </div>
@@ -1632,317 +1641,339 @@ include_once __DIR__ . '/inc/header.php';
         </div>
     </div>
     <div id="clients" class="complex__clients">
-        <div class="complex__clients__row d-flex">
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
+        <div id="clientsSlider" class="swiper">
+            <div class="swiper-wrapper complex__clients__row">
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
+                <div class="complex__clients__item swiper-slide">
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                    <div class="complex__clients__item__row">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy"
+                             alt=""
+                             data-src="./img/av_.png"/>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="complex__clients__row d-flex">
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
+        <div id="clientsPrev" class="button-prev complex__slider-nav complex__slider-nav--mob">
+            <svg width="7" height="14" class="ico">
+                <use xlink:href="#svg-left"></use>
+            </svg>
         </div>
-        <div class="complex__clients__row d-flex">
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
-            <div class="complex__clients__item">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     class="lazy"
-                     alt=""
-                     data-src="./img/av_.png"/>
-            </div>
+        <div id="clientsNext" class="button-next complex__slider-nav complex__slider-nav--mob">
+            <svg width="7" height="14" class="ico">
+                <use xlink:href="#svg-right"></use>
+            </svg>
         </div>
     </div>
     <div class="container">
@@ -1983,6 +2014,7 @@ include_once __DIR__ . '/inc/header.php';
                             >
                         </a>
                     </div>
+
                     <div class="swiper-slide">
                         <a href="./img/cert@2.jpg" data-fancybox class="complex__link-zoom complex__certificates__item">
                             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"

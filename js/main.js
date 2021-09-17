@@ -34,7 +34,24 @@ document.addEventListener("DOMContentLoaded", () => {
                 nextEl: '.button-next',
                 prevEl: '.button-prev',
             },
-
+            breakpoints: {
+                768: {
+                    slidesPerView: 4,
+                },
+                991: {
+                    slidesPerView: 4,
+                },
+                1200: {
+                    slidesPerView: 6,
+                },
+            },
+            on: {
+                init: function (e) {
+                    if(window.innerWidth < 575) {
+                        e.destroy();
+                    }
+                }
+            }
         });
     }
 
@@ -80,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             spaceBetween: 30,
             breakpoints: {
-                320: {
+                300: {
                     slidesPerView: 1,
                     spaceBetween: 25
                 },
@@ -104,31 +121,34 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    if(document.getElementById("clients") && window.innerWidth >= 1200) {
+    if(window.innerWidth >= 1200) {
 
-        let clients = document.getElementById("clients");
-        let iPos = clients.offsetTop;
+        if(document.getElementById("clients")) {
+            let clients = document.getElementById("clients");
+            let iPos = clients.offsetTop;
 
-        function partnersScroll(){
+            function partnersScroll() {
 
 
-            let scrollAmount = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop),
-                screenHeight = window.innerWidth,
-                windowWidth = window.innerHeight;
+                let scrollAmount = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop),
+                    screenHeight = window.innerWidth,
+                    windowWidth = window.innerHeight;
 
-            const clientsRow = document.querySelectorAll('.complex__clients__row');
-            clientsRow.forEach(el => {
-                if (scrollAmount + screenHeight > iPos - 10) {
-                    let translateValue = .3 * (-scrollAmount + iPos - screenHeight);
-                    el.style.transform = "translateX("+ translateValue +"px)";
-                }
+                const clientsRow = document.querySelectorAll('.complex__clients__row');
+                clientsRow.forEach(el => {
+                    if (scrollAmount + screenHeight > iPos - 10) {
+                        let translateValue = .3 * (-scrollAmount + iPos - screenHeight);
+                        el.style.transform = "translateX(" + translateValue + "px)";
+                    }
+                });
+
+            }
+
+            window.addEventListener('scroll', function () {
+                partnersScroll();
             });
-
         }
 
-        window.addEventListener('scroll', function () {
-            partnersScroll();
-        });
 
         function getScrollMenu() {
             let el = document.getElementById('fixNav');
@@ -143,6 +163,47 @@ document.addEventListener("DOMContentLoaded", () => {
         window.addEventListener('scroll', function () {
             getScrollMenu();
         });
+    } else {
+        function getScrollMenuMob() {
+            let el = document.getElementById('fixNav');
+            if (pageYOffset > 200) {
+                el.classList.add('active_mob');
+            } else {
+                el.classList.remove("active_mob");
+            }
+        }
+
+        getScrollMenuMob();
+        window.addEventListener('scroll', function () {
+            getScrollMenuMob();
+        });
+
+        if(document.getElementById("clients")) {
+            const clientsSlider = new Swiper('#clientsSlider', {
+                slidesPerView: 6,
+                breakpoints: {
+                    300: {
+                        slidesPerView: 3,
+                    },
+                    576: {
+                        slidesPerView: 4,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                    },
+                    991: {
+                        slidesPerView: 5,
+                    },
+                    1200: {
+                        slidesPerView: 6,
+                    },
+                },
+                navigation: {
+                    nextEl: '#clientsNext',
+                    prevEl: '#clientsPrev',
+                },
+            });
+        }
     }
 
     if (document.getElementById('moreTextBtn')) {

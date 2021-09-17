@@ -177,5 +177,11 @@
             <path fill="currentColor"
                   d="M1,14H11.58a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1H0A1,1,0,0,1,1,14Z"/>
         </symbol>
+
+        <symbol id="svg-toggle3" viewBox="0 0 24 16">
+            <path fill="currentColor" d="M1,7H23a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H1A1,1,0,0,1,0,8H0A1,1,0,0,1,1,7Z"/>
+            <path fill="currentColor" d="M1,0H23a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H1A1,1,0,0,1,0,1H0A1,1,0,0,1,1,0Z"/>
+            <path fill="currentColor" d="M1,14H23a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1H0A1,1,0,0,1,1,14Z"/>
+        </symbol>
     </svg>
 </div>

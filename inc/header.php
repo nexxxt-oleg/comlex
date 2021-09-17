@@ -42,7 +42,7 @@
             <div class="complex__header__middle__fix">
                 <div class="container ">
                     <div class="row align-items-center">
-                        <div class="col-lg-3 complex__header__middle__fix__col-logo">
+                        <div class="col-xl-3 col-6 complex__header__middle__fix__col-logo">
                             <a href="/" class="complex__header__logo-middle">
                                 <svg width="264" height="44" class="ico">
                                     <use xlink:href="#svg-logo"></use>
@@ -92,41 +92,88 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 complex__header__middle__fix__col-right">
-                            <ul class="complex__header__middle__right nav">
+                        <div class="d-xl-none col-6 complex__header__mob-col-right">
+                            <ul class="nav justify-content-end align-items-center complex__header__mob-col-right__list">
                                 <li>
-                                    <a href="" class="complex__header__item-r">
-                                        <div class="complex__header__item-r__ico">
-                                            <svg width="18" height="24">
-                                                <use xlink:href="#svg-compare"></use>
-                                            </svg>
-                                        </div>
-                                        <span class="complex__header__item-r__caption">СРАВНЕНИЕ</span>
+                                    <a href="mailto:info@complex-trade.ru">
+                                        <svg width="16" height="14">
+                                            <use xlink:href="#svg-mail"></use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" class="complex__header__item-r">
-                                        <div class="complex__header__item-r__ico">
-                                            <span class="complex__header__item-r__count">1</span>
-                                            <svg width="24" height="22">
-                                                <use xlink:href="#svg-fav"></use>
-                                            </svg>
-                                        </div>
-                                        <span class="complex__header__item-r__caption">ИЗБРАННОЕ</span>
+                                    <a href="tel:+74955422900">
+                                        <svg width="16" height="16">
+                                            <use xlink:href="#svg-tel"></use>
+                                        </svg>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="" class="complex__header__item-r">
-                                        <div class="complex__header__item-r__ico">
-                                            <span class="complex__header__item-r__count">3</span>
-                                            <svg width="23" height="24">
-                                                <use xlink:href="#svg-cart"></use>
-                                            </svg>
-                                        </div>
-                                        <span class="complex__header__item-r__caption">КОРЗИНА</span>
-                                    </a>
+                                    <button class="hamburger  hamburger--collapse navbar-toggler collapsed"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#navDopMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                      </span>
+                                    </button>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="col-xl-3 col-12 complex__header__middle__fix__col-right">
+                            <div class="container">
+                                <ul class="complex__header__middle__right nav">
+                                    <li class="complex__header__middle__right__mob-cat-nav">
+                                        <a href="#catalogModal" data-bs-toggle="modal"
+                                           class="complex__header__toggle-catalog">
+                                            <svg width="24" height="16" class="ico">
+                                                <use xlink:href="#svg-toggle"></use>
+                                            </svg>
+                                            Каталог
+                                        </a>
+                                    </li>
+                                    <li class="complex__header__middle__right__mob-search">
+                                        <a href="" class="complex__header__item-r" id="mobSearchOpen">
+                                            <div class="complex__header__item-r__ico">
+                                                <svg width="20" height="20">
+                                                    <use xlink:href="#svg-search"></use>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="complex__header__item-r">
+                                            <div class="complex__header__item-r__ico">
+                                                <svg width="18" height="24">
+                                                    <use xlink:href="#svg-compare"></use>
+                                                </svg>
+                                            </div>
+                                            <span class="complex__header__item-r__caption">СРАВНЕНИЕ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="complex__header__item-r">
+                                            <div class="complex__header__item-r__ico">
+                                                <span class="complex__header__item-r__count">1</span>
+                                                <svg width="24" height="22">
+                                                    <use xlink:href="#svg-fav"></use>
+                                                </svg>
+                                            </div>
+                                            <span class="complex__header__item-r__caption">ИЗБРАННОЕ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="complex__header__item-r">
+                                            <div class="complex__header__item-r__ico">
+                                                <span class="complex__header__item-r__count">3</span>
+                                                <svg width="23" height="24">
+                                                    <use xlink:href="#svg-cart"></use>
+                                                </svg>
+                                            </div>
+                                            <span class="complex__header__item-r__caption">КОРЗИНА</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
@@ -145,9 +192,392 @@
                 </li>
                 <li class="complex__header__footer__nav__dropdown">
                     <a href="">По типу предприятия</a>
+                    <ul class="nav nav__dropdown">
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t1.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Ресторан
+                                </span>
+                            </a>
+                        </li>
+
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t2.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Кафе
+                                </span>
+                            </a>
+                        </li>
+
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t3.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Фаст-фуд
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t4.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Супермаркет
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t5.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Пиццерия
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t6.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Бар
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t7.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Кондитерская
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t8.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Пекарня
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t9.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                   Кофейня
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t10.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                   Столовая
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t11.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Джеллатерия
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t12.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                   Фуд-трак
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t13.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Цветочный магазин
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t14.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                   Склад
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t15.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Фабрика кухни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown__col1">
+                            <a href="">
+                                <div class="nav__dropdown__col1__ico">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                         data-src="./img/t16.svg"
+                                         alt=""
+                                         class="lazy ico-h-60"
+                                    >
+                                </div>
+                                <span class="nav__dropdown__col1__title">
+                                    Мясное производство
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="complex__header__footer__nav__dropdown">
                     <a href="">По производителю</a>
+                    <ul class="nav nav__dropdown">
+                        <li class="nav__dropdown__caption">
+                            Производители оборудования
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Abat</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="">Atesy</a>
+                        </li>
+                        <li class="nav__dropdown__col2">
+                            <a href="" class="complex__more-link">Смотреть все</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="">Проектирование</a>
