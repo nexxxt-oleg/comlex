@@ -196,6 +196,12 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 complex__footer__col-right">
+                <a href="/" class="complex__footer__mob-logo">
+                    <svg width="170" height="28" class="ico">
+                        <use xlink:href="#svg-logo"></use>
+                    </svg>
+                </a>
+
                 <div class="complex__footer__phones">
                     <svg width="16" height="16" class="ico">
                         <use xlink:href="#svg-tel"></use>
@@ -291,7 +297,7 @@
         <div class="border-top complex__footer__bottom">
             <div class="row">
                 <div class="col-lg-3 col-xl-2">
-                    <a href="/">
+                    <a href="/" class="complex__footer__bottom__logo">
                         <svg width="170" height="28" class="ico">
                             <use xlink:href="#svg-logo"></use>
                         </svg>
@@ -313,7 +319,15 @@
             </div>
         </div>
     </div>
+
+    <a href="#top" class="complex__btn-top" id="btnTop">
+        <svg width="14" height="24">
+            <use xlink:href="#svg-up"></use>
+        </svg>
+    </a>
 </footer>
+
+
 </div>
 
 

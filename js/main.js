@@ -1,30 +1,6 @@
 let lazyLoadInstance = new LazyLoad();
 
 document.addEventListener("DOMContentLoaded", () => {
-    const navs = document.querySelectorAll('.complex__catalog-nav__list li');
-
-    navs.forEach(el => {
-
-        el.addEventListener('mouseover', () => {
-            let activeNav = document.querySelector('.complex__catalog-nav__list .active');
-            if (activeNav) {
-                activeNav.classList.remove("active");
-            }
-
-            el.classList.add('active');
-            let activeIdSubNav = el.dataset.hoverMenu;
-
-            let removeActiveNav = document.querySelector('.complex__catalog-nav__list__submenu.active');
-            if (removeActiveNav) {
-                removeActiveNav.classList.remove("active");
-            }
-
-            if (document.getElementById(activeIdSubNav)) {
-                document.getElementById(activeIdSubNav).classList.add("active");
-            }
-        });
-
-    });
 
 
     if (document.getElementById('sliderBrands')) {
@@ -123,6 +99,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if(window.innerWidth >= 1200) {
 
+        const navs = document.querySelectorAll('.complex__catalog-nav__list li');
+
+        navs.forEach(el => {
+
+            el.addEventListener('mouseover', () => {
+                let activeNav = document.querySelector('.complex__catalog-nav__list .active');
+                if (activeNav) {
+                    activeNav.classList.remove("active");
+                }
+
+                el.classList.add('active');
+                let activeIdSubNav = el.dataset.hoverMenu;
+
+                let removeActiveNav = document.querySelector('.complex__catalog-nav__list__submenu.active');
+                if (removeActiveNav) {
+                    removeActiveNav.classList.remove("active");
+                }
+
+                if (document.getElementById(activeIdSubNav)) {
+                    document.getElementById(activeIdSubNav).classList.add("active");
+                }
+            });
+
+        });
+
         if(document.getElementById("clients")) {
             let clients = document.getElementById("clients");
             let iPos = clients.offsetTop;
@@ -163,8 +164,24 @@ document.addEventListener("DOMContentLoaded", () => {
         window.addEventListener('scroll', function () {
             getScrollMenu();
         });
+
+        const goTopBtn = document.getElementById('btnTop');
+        window.addEventListener('scroll', trackScroll);
+        function trackScroll() {
+            var scrolled = window.pageYOffset;
+            var coords = document.documentElement.clientHeight;
+
+            if (scrolled > coords) {
+                goTopBtn.classList.add('_show');
+            }
+            if (scrolled < coords) {
+                goTopBtn.classList.remove('_show');
+            }
+        }
+        trackScroll();
+
     } else {
-        function getScrollMenuMob() {
+        /*function getScrollMenuMob() {
             let el = document.getElementById('fixNav');
             if (pageYOffset > 200) {
                 el.classList.add('active_mob');
@@ -176,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
         getScrollMenuMob();
         window.addEventListener('scroll', function () {
             getScrollMenuMob();
-        });
+        });*/
 
         if(document.getElementById("clients")) {
             const clientsSlider = new Swiper('#clientsSlider', {
@@ -204,6 +221,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 },
             });
         }
+
+        if(document.getElementById('catalogModal')) {
+            let catalogModal = document.getElementById('catalogModal');
+            catalogModal.addEventListener('show.bs.modal', function (event) {
+                document.getElementById('fixNav').classList.add("active-menu");
+            });
+            catalogModal.addEventListener('hidden.bs.modal', function (event) {
+                document.getElementById('fixNav').classList.remove("active-menu");
+            });
+        }
+
+        const navsMob = document.querySelectorAll('.complex__catalog-nav__list__item');
+
+        navsMob.forEach(el => {
+
+            el.addEventListener('click', (event) => {
+                let liNav = el.parentNode;
+                let activeIdSubNav = liNav.dataset.hoverMenu;
+                if(liNav.classList.contains('is_active')) {
+                    liNav.classList.remove('is_active');
+                    document.getElementById('catalogNavNain').classList.remove('is_active');
+                    document.getElementById(activeIdSubNav).classList.remove('is_active');
+                } else {
+                    liNav.classList.add('is_active');
+                    document.getElementById('catalogNavNain').classList.add('is_active');
+                    document.getElementById(activeIdSubNav).classList.add('is_active');
+                }
+                console.log(activeIdSubNav);
+                event.preventDefault(false);
+            });
+
+        });
+
     }
 
     if (document.getElementById('moreTextBtn')) {

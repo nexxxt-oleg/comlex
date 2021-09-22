@@ -12,7 +12,7 @@
     <title>complex</title>
 </head>
 <body>
-<div class="complex">
+<div class="complex" id="top">
     <header class="complex__header" id="fixNav">
         <div class="complex__header__top">
             <div class="container ">
@@ -111,7 +111,8 @@
                                 <li>
                                     <button class="hamburger  hamburger--collapse navbar-toggler collapsed"
                                             data-bs-toggle="collapse"
-                                            data-bs-target="#navDopMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                            data-bs-target="#navDopMenu" aria-expanded="false"
+                                            aria-label="Toggle navigation">
                                       <span class="hamburger-box">
                                         <span class="hamburger-inner"></span>
                                       </span>
@@ -125,14 +126,16 @@
                                     <li class="complex__header__middle__right__mob-cat-nav">
                                         <a href="#catalogModal" data-bs-toggle="modal"
                                            class="complex__header__toggle-catalog">
-                                            <svg width="24" height="16" class="ico">
-                                                <use xlink:href="#svg-toggle"></use>
-                                            </svg>
+                                            <div class="toggle-ico ico">
+                                                <span class="toggle-ico__top"></span>
+                                                <span class="toggle-ico__center"></span>
+                                                <span class="toggle-ico__bottom"></span>
+                                            </div>
                                             Каталог
                                         </a>
                                     </li>
                                     <li class="complex__header__middle__right__mob-search">
-                                        <a href="" class="complex__header__item-r" id="mobSearchOpen">
+                                        <a data-bs-toggle="modal" href="#searchModal" class="complex__header__item-r" id="mobSearchOpen">
                                             <div class="complex__header__item-r__ico">
                                                 <svg width="20" height="20">
                                                     <use xlink:href="#svg-search"></use>
@@ -593,6 +596,64 @@
                 </li>
             </ul>
         </div>
+        <div class="complex__header__mob-dop-nav">
+            <div class="collapse" id="navDopMenu">
+                <div class="container">
+                    <ul class="nav d-block complex__header__mob-navigation">
+                        <li>
+                            <a href="">О компании</a>
+                        </li>
+                        <li>
+                            <a href="">Наши проекты</a>
+                        </li>
+                        <li>
+                            <a href="">Готовые решения</a>
+                        </li>
+                        <li>
+                            <a href="">Сертификаты</a>
+                        </li>
+                        <li>
+                            <a href="">Статьи</a>
+                        </li>
+                        <li class="accordion-item">
+                            <a class="collapsed"
+                               data-bs-toggle="collapse"
+                               data-bs-target="#collapseService"
+                               href="#">
+                                Услуги
+                            </a>
+                            <div class="accordion-collapse collapse" id="collapseService">
+                                <ul class="nav d-block">
+                                    <li class="collapse__sub-item"><a  href="#">Action</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Another action</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Something else here</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <a class="collapsed"
+                               data-bs-toggle="collapse"
+                               data-bs-target="#collapseBay"
+                               href="#">
+                                Как купить
+                            </a>
+                            <div class="accordion-collapse collapse" id="collapseBay">
+                                <ul class="nav d-block">
+                                    <li class="collapse__sub-item"><a  href="#">Action</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Another action</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Something else here</a></li>
+                                    <li class="collapse__sub-item"><a  href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
     <div class="modal fade" id="catalogModal" tabindex="-1" aria-hidden="true">
@@ -602,7 +663,7 @@
                 <div class="complex__catalog-nav__header">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-xl-4 col-lg-6">
+                            <div class="col-xl-4">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="complex__catalog-nav__header__logo">
                                         <svg width="210" height="35" class="ico">
@@ -639,8 +700,8 @@
                 <div class="complex__catalog-nav__body">
                     <div class="container">
                         <div class="row complex__catalog-nav__body__row">
-                            <div class="col-xl-4 col-lg-6">
-                                <ul class="nav complex__catalog-nav__list">
+                            <div class="col-xl-4">
+                                <ul class="nav complex__catalog-nav__list" id="catalogNavNain">
                                     <li data-hover-menu="subnav_1">
                                         <a href="" class="complex__catalog-nav__list__item">
                                             <div class="complex__catalog-nav__list__item__ico">
@@ -801,13 +862,33 @@
                                             Торговое оборудование
                                         </a>
                                     </li>
+                                    <li class="complex__mob-link complex__catalog-nav__mob-dvd">
+                                        <a href="" class="complex__catalog-nav__mob-link">
+                                            <div class="complex__catalog-nav__list__item__ico">
+                                                <img width="32" height="32"
+                                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                     class="lazy" alt="" data-src="./img/cat17.svg"/>
+                                            </div>
+                                            По типу предприятия
+                                        </a>
+                                    </li>
+                                    <li class="complex__mob-link">
+                                        <a href="" class="complex__catalog-nav__mob-link">
+                                            <div class="complex__catalog-nav__list__item__ico">
+                                                <img width="32" height="32"
+                                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                     class="lazy" alt="" data-src="./img/cat18.svg"/>
+                                            </div>
+                                            По производителю
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="col-xl-8 col-lg-6">
+                            <div class="col-xl-8">
                                 <div class="complex__catalog-nav__right">
                                     <nav id="subnav_1" class="complex__catalog-nav__list__submenu">
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">А</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -909,7 +990,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">П</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -1025,7 +1106,7 @@
                                     </nav>
                                     <nav id="subnav_2" class="complex__catalog-nav__list__submenu">
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">А</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -1127,7 +1208,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">П</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -1243,7 +1324,7 @@
                                     </nav>
                                     <nav id="subnav_3" class="complex__catalog-nav__list__submenu">
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">А</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -1345,7 +1426,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-xl-6">
                                                 <div class="complex__nav-alphabet">
                                                     <div class="complex__nav-alphabet__letter">П</div>
                                                     <ul class="nav d-block complex__nav-alphabet__list">
@@ -1503,7 +1584,6 @@
                                             </a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
