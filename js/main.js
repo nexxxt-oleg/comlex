@@ -97,6 +97,28 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    if (document.getElementById('sliderCat')) {
+        const sliderBrands = new Swiper('#sliderCat', {
+            navigation: {
+                nextEl: '#sliderCatNext',
+                prevEl: '#sliderCatPrev',
+            },
+            spaceBetween: 5,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+            /*autoHeight: true,*/
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+            preloadImages: false,
+            lazy: true,
+        });
+    }
+
     if(window.innerWidth >= 1200) {
 
         const navs = document.querySelectorAll('.complex__catalog-nav__list li');
@@ -248,11 +270,27 @@ document.addEventListener("DOMContentLoaded", () => {
                     document.getElementById('catalogNavNain').classList.add('is_active');
                     document.getElementById(activeIdSubNav).classList.add('is_active');
                 }
-                console.log(activeIdSubNav);
+                //console.log(activeIdSubNav);
                 event.preventDefault(false);
             });
 
         });
+
+        if(document.getElementById('mobFilter')) {
+            document.getElementById('mobFilter').addEventListener('click', (event) => {
+                document.getElementById('filterBox').classList.add('is_active');
+                document.getElementById('filterBox').classList.add('is_active');
+                document.getElementById('top').classList.add('full-height');
+                event.preventDefault();
+            });
+
+            document.getElementById('mobFilterClose').addEventListener('click', (event) => {
+                document.getElementById('filterBox').classList.remove('is_active');
+                document.getElementById('filterBox').classList.remove('is_active');
+                document.getElementById('top').classList.remove('full-height');
+                event.preventDefault();
+            });
+        }
 
     }
 
@@ -261,6 +299,50 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("moreTextBtn").classList.add("d-none");
             document.getElementById("moreText").style.display = "block";
             e.preventDefault(false);
+        });
+    }
+
+    if (document.getElementsByClassName("js-more-props").length) {
+        const moreProps = document.querySelectorAll('.js-more-props');
+
+        moreProps.forEach(el => {
+            el.addEventListener('click', (event) => {
+                event.target.parentNode.parentNode.classList.add('show_all');
+                event.preventDefault(false);
+            });
+        });
+    }
+
+    if (document.getElementById('priceRange')) {
+
+        let priceRange = document.getElementById('priceRange');
+
+        noUiSlider.create(priceRange, {
+            start: [0, parseInt(priceRange.dataset.maxPrice)],
+            step: 1000,
+            connect: true,
+            format: wNumb({
+                decimals: 0,
+                thousand: ' ',
+                //suffix: ' ₽'
+            }),
+            range: {
+                'min': 0,
+                'max': parseInt(priceRange.dataset.maxPrice)
+            }
+        });
+
+        let priceMin = document.getElementById('priceMin'),
+            priceMax = document.getElementById('priceMax');
+
+
+        priceRange.noUiSlider.on('update', function (values, handle) {
+            //priceValue[handle].value = values[handle];
+            if (handle == 0) {
+                priceMin.value = values[handle];
+            } else {
+                priceMax.value = values[handle];
+            }
         });
     }
 

@@ -58,7 +58,7 @@
                         <div class="col-lg-2 complex__header__middle__fix__col-city">
                             <div class="complex__header__col-city">
                                 <div class="dropdown">
-                            <span class="music__city-btn dropdown-toggle" data-bs-toggle="dropdown"
+                            <span class="complex__city-btn dropdown-toggle" data-bs-toggle="dropdown"
                                   aria-expanded="false">
                                 Санкт-Петербург
                             </span>

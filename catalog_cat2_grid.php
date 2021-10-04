@@ -32,31 +32,33 @@ include_once __DIR__ . '/inc/header.php';
             <?php
             include_once __DIR__ . '/inc/cat-filter.php';
             ?>
-
-        </div>
-        <div class="complex__text fpad70">
-            <h2>Наш ассортимент (seo)</h2>
-            <p>Компания Комплекс Трейд предлагает к продаже кухонное оборудование для ресторанов, кафе, баров, столовых,
-                других заведений общественного питания, а также пекарней и пиццерий. В каталоге нашего интернет магазина
-                представлена продукция ведущих мировых производителей, характеризующаяся высоким качеством и
-                надежностью. Все предлагаемое оборудование создано с учетом существующих требований к безопасности и
-                охране труда, соответствует действующим санитарно-гигиеническим нормам и стандартам.</p>
-
-            <a href="" class="complex__more-link2 d-flex align-items-center" id="moreTextBtn">
-                Подробнее
-                <svg width="7" height="4" class="ml-10">
-                    <use xlink:href="#svg-down"></use>
-                </svg>
-            </a>
-            <div id="moreText" style="display: none">
-                <p>Компания Комплекс Трейд предлагает к продаже кухонное оборудование для ресторанов, кафе, баров,
-                    столовых, других заведений общественного питания, а также пекарней и пиццерий. В каталоге нашего
-                    интернет магазина представлена продукция ведущих мировых производителей, характеризующаяся высоким
-                    качеством и надежностью. Все предлагаемое оборудование создано с учетом существующих требований к
-                    безопасности и охране труда, соответствует действующим санитарно-гигиеническим нормам и
-                    стандартам.</p>
+            <div class="col-xl-9 col-lg-8 fpad50 d-flex flex-column">
+                <?php
+                include_once __DIR__ . '/inc/sort-top.php';
+                include_once __DIR__ . '/inc/active-filter.php';
+                include_once __DIR__ . '/inc/cat-slider.php';
+                include_once __DIR__ . '/inc/grid-list.php';
+                ?>
+                <div class="complex__footer-pagination">
+                    <button class="complex__footer-pagination__all-more">Показать еще</button>
+                    <div class="complex__footer-pagination__nav">
+                        <? include __DIR__ . '/inc/paginations.php'; ?>
+                    </div>
+                </div>
+                <div class="complex__mob-filter-btn">
+                    <button id="mobFilter" class="complex__btn complex__btn--blue complex__btn--h44">
+                        <svg width="24" height="24" class="ico mr-10">
+                            <use xlink:href="#svg-filter"></use>
+                        </svg>
+                        Фильтр по параметрам
+                    </button>
+                </div>
             </div>
         </div>
+        <?php
+        include_once __DIR__ . '/inc/seo-text.php';
+        ?>
+
     </div>
 
 <?php
