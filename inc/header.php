@@ -135,7 +135,8 @@
                                         </a>
                                     </li>
                                     <li class="complex__header__middle__right__mob-search">
-                                        <a data-bs-toggle="modal" href="#searchModal" class="complex__header__item-r" id="mobSearchOpen">
+                                        <a data-bs-toggle="modal" href="#searchModal" class="complex__header__item-r"
+                                           id="mobSearchOpen">
                                             <div class="complex__header__item-r__ico">
                                                 <svg width="20" height="20">
                                                     <use xlink:href="#svg-search"></use>
@@ -585,11 +586,24 @@
                 <li>
                     <a href="">Проектирование</a>
                 </li>
-                <li>
+                <li class="complex__header__footer__nav__dropdown position-relative">
                     <a href="">Услуги</a>
+                    <ul class="nav nav__dropdown nav__dropdown--links nav__dropdown--w345">
+                        <li><a href="">Проектирование</a></li>
+                        <li><a href="">Сервисное обслуживание и ремонт</a></li>
+                        <li><a href="">Готовые решения для вашего бизнеса</a></li>
+                        <li><a href="">Обучение</a></li>
+                        <li><a href="">Отгрузка 24/7</a></li>
+                        <li><a href="">Все в одном месте и под ключ</a></li>
+                    </ul>
                 </li>
-                <li>
+                <li class="complex__header__footer__nav__dropdown position-relative">
                     <a href="">Как купить</a>
+                    <ul class="nav nav__dropdown nav__dropdown--links nav__dropdown--w25">
+                        <li><a href="">Условия оплаты</a></li>
+                        <li><a href="">Условия доставки</a></li>
+                        <li><a href="">Гарантия на товар</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="">Статьи</a>
@@ -624,10 +638,10 @@
                             </a>
                             <div class="accordion-collapse collapse" id="collapseService">
                                 <ul class="nav d-block">
-                                    <li class="collapse__sub-item"><a  href="#">Action</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Another action</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Something else here</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Separated link</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Action</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Another action</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Something else here</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Separated link</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -640,10 +654,10 @@
                             </a>
                             <div class="accordion-collapse collapse" id="collapseBay">
                                 <ul class="nav d-block">
-                                    <li class="collapse__sub-item"><a  href="#">Action</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Another action</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Something else here</a></li>
-                                    <li class="collapse__sub-item"><a  href="#">Separated link</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Action</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Another action</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Something else here</a></li>
+                                    <li class="collapse__sub-item"><a href="#">Separated link</a></li>
                                 </ul>
                             </div>
                         </li>

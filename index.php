@@ -9,20 +9,40 @@ include_once __DIR__ . '/inc/header.php';
 
                 >
                     <div class="complex__home-banner__item__bg lazy" data-bg="./img/baner1.png"></div>
-                    <div class="complex__home-banner__item__caption text-white">
-                        Проектирование и<br>
-                        комплексное оснащение<br>
-                        предприятий общественного<br>
-                        питания
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover">
+                        <div>
+                            Реализовано более<br>
+                            <span class="big">500</span><br>
+                            объектов<br>
+                            <small>от фаст-фуда до фабрики кухни</small>
+                        </div>
+                    </div>
+                    <div class="complex__home-banner__item__caption complex__home-banner__item__caption--front text-white">
+                        <div>
+                            Проектирование и<br>
+                            комплексное оснащение<br>
+                            предприятий общественного<br>
+                            питания и торговли
+                        </div>
                     </div>
                 </a>
                 <a href=""
                    class="complex__home-banner__item complex__home-banner__item--min complex__home-banner__item--b2">
                     <div class="complex__home-banner__item__bg lazy" data-bg="./img/baner2.png"></div>
-                    <div class="complex__home-banner__item__caption text-white">
-                        Более 50 000<br>
-                        наименований<br>
-                        оборудования
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover">
+                        <div>
+                            Мы отобрали для Вас<br>
+                            только самых лучших<br>
+                            и проверенных<br>
+                            производителей
+                        </div>
+                    </div>
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--front">
+                        <div>
+                            Более 50 000<br>
+                            наименований<br>
+                            оборудования
+                        </div>
                     </div>
                 </a>
                 <a href=""
@@ -31,7 +51,7 @@ include_once __DIR__ . '/inc/header.php';
                     <div class="complex__home-banner__item__caption text-black">
                         Оснащение кухни в<br>
                         частном доме
-                        <span>Индивидуальный подход к <br> каждому клиенту!</span>
+                        <span>Индивидуальные решения<br> и особый подход</span>
                     </div>
                     <div class="complex__home-banner__item__bottom-img">
 
@@ -47,17 +67,34 @@ include_once __DIR__ . '/inc/header.php';
                 <a href=""
                    class="complex__home-banner__item  complex__home-banner__item--min complex__home-banner__item--b4">
                     <div class="complex__home-banner__item__bg lazy" data-bg="./img/baner4.png"></div>
-                    <div class="complex__home-banner__item__caption text-white">
-                        Доставки по всей России
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover">
+                        <div>
+                            Доставки по всей России<br>
+                            <small>Лучшими транспортными<br>
+                                компаниями</small>
+                        </div>
+                    </div>
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--front">
+                        <div>
+                            Доставка по всей России
+                        </div>
                     </div>
                 </a>
                 <a href=""
                    class="complex__home-banner__item complex__home-banner__item--min complex__home-banner__item--b5">
                     <div class="complex__home-banner__item__bg lazy" data-bg="./img/baner5.png"></div>
-                    <div class="complex__home-banner__item__caption text-black">
-                        Официальная гарантия<br>
-                        от производителя<br>
-                        на все оборудование!
+                    <div class="complex__home-banner__item__caption text-black complex__home-banner__item__caption--hover">
+                        <div>
+                            Гарантия на оборудование до<br>
+                            <span class="big">5 лет</span>
+                        </div>
+                    </div>
+                    <div class="complex__home-banner__item__caption text-black complex__home-banner__item__caption--front">
+                        <div>
+                            Официальная гарантия<br>
+                            от производителя<br>
+                            на все оборудование!
+                        </div>
                     </div>
                 </a>
             </div>

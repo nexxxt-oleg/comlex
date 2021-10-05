@@ -111,7 +111,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xl-2 col-lg-4 complex__footer__col-nav">
+            <div class="col-xl-2 col-lg-4 complex__footer__col-nav d-flex flex-column">
                 <ul class="nav d-block complex__footer__nav">
                     <li class="complex__footer__nav__caption">
                         <a href="">По производителю</a>
@@ -135,7 +135,7 @@
                         <a href="">Статьи</a>
                     </li>
                 </ul>
-                <ul class="nav d-block complex__footer__nav">
+                <ul class="nav d-block complex__footer__nav mt-auto">
                     <li class="complex__footer__nav__caption">
                         <a href="">Услуги</a>
                     </li>
@@ -145,21 +145,11 @@
                     <li>
                         <a href="">Сервисная служба</a>
                     </li>
-                    <li>
-                        <a href="">Прямые поставки</a>
-                    </li>
-                    <li>
-                        <a href="">Обучение</a>
-                    </li>
-                    <li>
-                        <a href="">Отгрузка 24/7</a>
-                    </li>
-                    <li>
-                        <a href="">Горячая линия</a>
-                    </li>
-                    <li>
-                        <a href="">Все в одном месте</a>
-                    </li>
+
+                    <li><a href="">Готовые решения для вашего бизнеса</a></li>
+                    <li><a href="">Обучение</a></li>
+                    <li><a href="">Отгрузка 24/7</a></li>
+                    <li><a href="">Все в одном месте</a></li>
                 </ul>
             </div>
             <div class="col-xl-2 col-lg-6 complex__footer__col-nav">
