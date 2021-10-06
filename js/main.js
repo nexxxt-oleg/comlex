@@ -97,6 +97,41 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    if (document.getElementById('sliderAction')) {
+        const sliderAction = new Swiper('#sliderAction', {
+            slidesPerView: 4,
+            navigation: {
+                nextEl: '#nextAction',
+                prevEl: '#prevAction',
+            },
+            preloadImages: false,
+            lazy: true,
+            spaceBetween: 30,
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 25
+                },
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 25
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 25
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+            }
+        });
+    }
+
     if (document.getElementById('sliderCat')) {
         const sliderBrands = new Swiper('#sliderCat', {
             navigation: {
