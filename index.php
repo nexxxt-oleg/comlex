@@ -153,13 +153,13 @@ include_once __DIR__ . '/inc/header.php';
         </div>
 
         <div class="row fpad50">
-            <div class="col col-c5 d-md-none d-none d-lg-block d-xl-block fpad30">
+            <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic"
+                         class="lazy complex__card__pic complex__card__pic--h2"
                          alt=""
-                         data-src="./img/art1.jpg"
-                         data-srcset="./img/art1.jpg 1x, ./img/art1@2.jpg 2x"/>
+                         data-src="./img/art2.jpg"
+                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -167,13 +167,13 @@ include_once __DIR__ . '/inc/header.php';
                     </div>
                 </a>
             </div>
-            <div class="col col-c5 fpad30">
+            <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic"
+                         class="lazy complex__card__pic complex__card__pic--h2"
                          alt=""
-                         data-src="./img/art1.jpg"
-                         data-srcset="./img/art1.jpg 1x, ./img/art1@2.jpg 2x"/>
+                         data-src="./img/art2.jpg"
+                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -181,13 +181,13 @@ include_once __DIR__ . '/inc/header.php';
                     </div>
                 </a>
             </div>
-            <div class="col col-c5 fpad30">
+            <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic"
+                         class="lazy complex__card__pic complex__card__pic--h2"
                          alt=""
-                         data-src="./img/art1.jpg"
-                         data-srcset="./img/art1.jpg 1x, ./img/art1@2.jpg 2x"/>
+                         data-src="./img/art2.jpg"
+                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -195,21 +195,7 @@ include_once __DIR__ . '/inc/header.php';
                     </div>
                 </a>
             </div>
-            <div class="col col-c5 fpad30">
-                <a href="" class="complex__card">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic"
-                         alt=""
-                         data-src="./img/art1.jpg"
-                         data-srcset="./img/art1.jpg 1x, ./img/art1@2.jpg 2x"/>
-                    <div class="complex__card__title">
-                        Специальное предложение
-                        на тепловое оборудование
-                        UNOX
-                    </div>
-                </a>
-            </div>
-            <div class="col col-c5 fpad30">
+            <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__all-link">
                     <span class="complex__all-link__number">+11</span>
                     <div class="text-center">
@@ -978,342 +964,7 @@ include_once __DIR__ . '/inc/header.php';
             Наши клиенты
         </div>
     </div>
-    <div id="clients" class="complex__clients">
-        <div id="clientsSlider" class="swiper">
-            <div class="swiper-wrapper complex__clients__row">
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-                <div class="complex__clients__item swiper-slide">
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                    <div class="complex__clients__item__row">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             class="lazy"
-                             alt=""
-                             data-src="./img/av_.png"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="clientsPrev" class="button-prev complex__slider-nav complex__slider-nav--mob">
-            <svg width="7" height="14" class="ico">
-                <use xlink:href="#svg-left"></use>
-            </svg>
-        </div>
-        <div id="clientsNext" class="button-next complex__slider-nav complex__slider-nav--mob">
-            <svg width="7" height="14" class="ico">
-                <use xlink:href="#svg-right"></use>
-            </svg>
-        </div>
-    </div>
+<?php include __DIR__ . '/inc/clients_slider.php'; ?>
     <div class="container">
         <div class="border-top tpad50">
             <div class="complex__title">Сертификаты официального дилера</div>

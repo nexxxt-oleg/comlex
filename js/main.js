@@ -381,4 +381,84 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    const phoneMask = document.querySelectorAll('.js-phone-mask');
+
+    phoneMask.forEach(el => {
+        IMask(el, {
+            mask: '+{7}(000)000-00-00',
+        });
+    });
+
+
+    if(document.getElementById('projectSlider')) {
+        const projectSlider = new Swiper('#projectSlider', {
+            effect: 'fade',
+            autoHeight: true,
+            fadeEffect: {
+                crossFade: true
+            },
+            navigation: {
+                nextEl: '#sl-next',
+                prevEl: '#sl-prev',
+            },
+        });
+
+        const imageSliders = document.querySelectorAll('.complex__projects__item__slider');
+        let numberSlider = 1;
+        let projectThumbsSlider = [];
+        imageSliders.forEach(el => {
+            let projectThumbs = el.querySelector('.project-thumbs');
+            let selectSlider1 = '#'+projectThumbs.id;
+            let selectSlider2 = projectThumbs.dataset.sliderid;
+            projectThumbsSlider[numberSlider] = new Swiper(selectSlider1, {
+                loop: false,
+                spaceBetween: 30,
+                slidesPerView: 6,
+                freeMode: true,
+                watchSlidesProgress: true,
+                lazy: true,
+                breakpoints: {
+                    300: {
+                        spaceBetween: 10,
+                    },
+                    576: {
+                        spaceBetween: 10,
+                    },
+                    1200: {
+                        spaceBetween: 30,
+                    },
+                },
+            });
+            //let projectImages = el.querySelector('.project-images');
+            //console.log(projectImages);
+            new Swiper(selectSlider2, {
+                loop: false,
+                spaceBetween: 10,
+                lazy: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                thumbs: {
+                    swiper: projectThumbsSlider[numberSlider],
+                },
+            });
+
+            numberSlider++;
+        });
+
+    }
+
+    if(document.getElementById('objSliderTop') && screen.width < 769) {
+        const objSliderTop = new Swiper('#objSliderTop', {
+            slideClass: 'complex__obj-slider-top__item',
+            wrapperClass: 'complex__obj-slider-top__row',
+            navigation: {
+                nextEl: '#objSliderTop .button-next',
+                prevEl: '#objSliderTop .button-prev',
+            },
+        });
+    }
+
 });
