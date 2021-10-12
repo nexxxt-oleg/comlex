@@ -9,7 +9,7 @@
                                 Добавить в
                                 избранное
                             </span>
-                            <svg width="24" height="22">
+                            <svg width="18" height="17">
                                 <use xlink:href="#svg-fav"></use>
                             </svg>
                         </a>
@@ -20,7 +20,7 @@
                                 Добавить в
                                 сравнение
                             </span>
-                            <svg width="18" height="24">
+                            <svg width="15" height="19">
                                 <use xlink:href="#svg-compare"></use>
                             </svg>
                         </a>
@@ -90,7 +90,7 @@
                                 Добавить в
                                 избранное
                             </span>
-                            <svg width="24" height="22">
+                            <svg width="18" height="17">
                                 <use xlink:href="#svg-fav"></use>
                             </svg>
                         </a>
@@ -101,7 +101,7 @@
                                 Добавить в
                                 сравнение
                             </span>
-                            <svg width="18" height="24">
+                            <svg width="15" height="19">
                                 <use xlink:href="#svg-compare"></use>
                             </svg>
                         </a>
@@ -171,7 +171,7 @@
                                 Добавить в
                                 избранное
                             </span>
-                            <svg width="24" height="22">
+                            <svg width="18" height="17">
                                 <use xlink:href="#svg-fav"></use>
                             </svg>
                         </a>
@@ -182,7 +182,7 @@
                                 Добавить в
                                 сравнение
                             </span>
-                            <svg width="18" height="24">
+                            <svg width="15" height="19">
                                 <use xlink:href="#svg-compare"></use>
                             </svg>
                         </a>
@@ -252,7 +252,7 @@
                                 Добавить в
                                 избранное
                             </span>
-                            <svg width="24" height="22">
+                            <svg width="18" height="17">
                                 <use xlink:href="#svg-fav"></use>
                             </svg>
                         </a>
@@ -263,7 +263,7 @@
                                 Добавить в
                                 сравнение
                             </span>
-                            <svg width="18" height="24">
+                            <svg width="15" height="19">
                                 <use xlink:href="#svg-compare"></use>
                             </svg>
                         </a>

@@ -18,14 +18,14 @@
         <ul class="nav nav--views">
             <li>
                 <a href="" class="active">
-                    <svg width="24" height="24">
+                    <svg width="18" height="18">
                         <use xlink:href="#svg-v-grid"></use>
                     </svg>
                 </a>
             </li>
             <li>
                 <a href="">
-                    <svg width="24" height="24">
+                    <svg width="18" height="18">
                         <use xlink:href="#svg-v-list"></use>
                     </svg>
                 </a>

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             on: {
                 init: function (e) {
-                    if(window.innerWidth < 575) {
+                    if (window.innerWidth < 575) {
                         e.destroy();
                     }
                 }
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    if(window.innerWidth >= 1200) {
+    if (window.innerWidth >= 1200) {
 
         const navs = document.querySelectorAll('.complex__catalog-nav__list li');
 
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-        if(document.getElementById("clients")) {
+        if (document.getElementById("clients")) {
             let clients = document.getElementById("clients");
             let iPos = clients.offsetTop;
 
@@ -224,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const goTopBtn = document.getElementById('btnTop');
         window.addEventListener('scroll', trackScroll);
+
         function trackScroll() {
             var scrolled = window.pageYOffset;
             var coords = document.documentElement.clientHeight;
@@ -235,6 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 goTopBtn.classList.remove('_show');
             }
         }
+
         trackScroll();
 
     } else {
@@ -252,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
             getScrollMenuMob();
         });*/
 
-        if(document.getElementById("clients")) {
+        if (document.getElementById("clients")) {
             const clientsSlider = new Swiper('#clientsSlider', {
                 slidesPerView: 6,
                 breakpoints: {
@@ -279,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        if(document.getElementById('catalogModal')) {
+        if (document.getElementById('catalogModal')) {
             let catalogModal = document.getElementById('catalogModal');
             catalogModal.addEventListener('show.bs.modal', function (event) {
                 document.getElementById('fixNav').classList.add("active-menu");
@@ -296,7 +298,7 @@ document.addEventListener("DOMContentLoaded", () => {
             el.addEventListener('click', (event) => {
                 let liNav = el.parentNode;
                 let activeIdSubNav = liNav.dataset.hoverMenu;
-                if(liNav.classList.contains('is_active')) {
+                if (liNav.classList.contains('is_active')) {
                     liNav.classList.remove('is_active');
                     document.getElementById('catalogNavNain').classList.remove('is_active');
                     document.getElementById(activeIdSubNav).classList.remove('is_active');
@@ -311,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         });
 
-        if(document.getElementById('mobFilter')) {
+        if (document.getElementById('mobFilter')) {
             document.getElementById('mobFilter').addEventListener('click', (event) => {
                 document.getElementById('filterBox').classList.add('is_active');
                 document.getElementById('filterBox').classList.add('is_active');
@@ -390,7 +392,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    if(document.getElementById('projectSlider')) {
+    if (document.getElementById('projectSlider')) {
         const projectSlider = new Swiper('#projectSlider', {
             effect: 'fade',
             autoHeight: true,
@@ -408,7 +410,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let projectThumbsSlider = [];
         imageSliders.forEach(el => {
             let projectThumbs = el.querySelector('.project-thumbs');
-            let selectSlider1 = '#'+projectThumbs.id;
+            let selectSlider1 = '#' + projectThumbs.id;
             let selectSlider2 = projectThumbs.dataset.sliderid;
             projectThumbsSlider[numberSlider] = new Swiper(selectSlider1, {
                 loop: false,
@@ -450,7 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    if(document.getElementById('objSliderTop') && screen.width < 769) {
+    if (document.getElementById('objSliderTop') && screen.width < 769) {
         const objSliderTop = new Swiper('#objSliderTop', {
             slideClass: 'complex__obj-slider-top__item',
             wrapperClass: 'complex__obj-slider-top__row',
@@ -459,6 +461,42 @@ document.addEventListener("DOMContentLoaded", () => {
                 prevEl: '#objSliderTop .button-prev',
             },
         });
+    }
+
+    if (document.getElementById('productBig')) {
+
+        let productMin = new Swiper('#productMin', {
+            loop: false,
+            spaceBetween: 30,
+            slidesPerView: 6,
+            /*freeMode: true,*/
+            watchSlidesProgress: true,
+            lazy: true,
+            breakpoints: {
+                576: {
+                    spaceBetween: 10,
+                },
+                1200: {
+                    spaceBetween: 30,
+                },
+            },
+        });
+
+        new Swiper('#productBig', {
+            loop: false,
+            spaceBetween: 10,
+            lazy: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            thumbs: {
+                swiper: productMin,
+            },
+        });
+
+
     }
 
 });

@@ -82,17 +82,17 @@
                             <div class="complex__products__item__footer row">
                                 <div class="col-6">
                                     <div class="complex__product__count d-flex">
-                            <span class="complex__product__count__minus">
-                                <svg width="12" height="2" class="ico">
-                                    <use xlink:href="#svg-minus"></use>
-                                </svg>
-                            </span>
-                                        <input type="text" readonly value="1" class="complex__product__count__value">
-                                        <span class="complex__product__count__plus">
-                                <svg width="12" height="12" class="ico">
-                                    <use xlink:href="#svg-plus"></use>
-                                </svg>
-                            </span>
+                                        <span class="complex__product__count__minus">
+                                            <svg width="12" height="2" class="ico">
+                                                <use xlink:href="#svg-minus"></use>
+                                            </svg>
+                                        </span>
+                                                    <input type="text" readonly value="1" class="complex__product__count__value">
+                                                    <span class="complex__product__count__plus">
+                                            <svg width="12" height="12" class="ico">
+                                                <use xlink:href="#svg-plus"></use>
+                                            </svg>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="col-6">
@@ -102,7 +102,7 @@
                             <ul class="nav d-block complex__product__events2">
                                 <li>
                                     <a class="complex__product__events2__item">
-                                        <svg width="24" height="22">
+                                        <svg width="18" height="16">
                                             <use xlink:href="#svg-fav"></use>
                                         </svg>
                                         <span class="complex__product__events2__item__label">
@@ -112,7 +112,7 @@
                                 </li>
                                 <li>
                                     <a class="complex__product__events2__item">
-                                        <svg width="18" height="24">
+                                        <svg width="15" height="19">
                                             <use xlink:href="#svg-compare"></use>
                                         </svg>
                                         <span>
