@@ -1,4 +1,4 @@
-<div class="complex__products__item complex__products__item--grid">
+<div class="complex__products__item complex__products__item--grid complex__products__item--slide">
     <div class="complex__products__item__wrapper complex__product">
         <ul class="nav d-block complex__product__events">
             <li>
@@ -29,8 +29,9 @@
                  data-src="./img/lot.jpg"
                  data-srcset="./img/lot.jpg 1x, ./img/lot@2.jpg 2x"
                  alt=""
-                 class="lazy"
+                 class="swiper-lazy"
             >
+            <div class="swiper-lazy-preloader"></div>
         </a>
         <div class="d-flex align-items-center justify-content-between fpad15">
                     <span class="complex__products__item__art">

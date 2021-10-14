@@ -49,9 +49,9 @@
                                 </svg>
                             </a>
                             <button class="btn-cat btn-cat--fix" data-bs-target="#catalogModal" data-bs-toggle="modal">
-                                <svg width="12" height="16" class="ico mr-12">
-                                    <use xlink:href="#svg-toggle2"></use>
-                                </svg>
+                                <div class="ico-toggle ico-toggle--min mr-12">
+                                    <span></span>
+                                </div>
                                 Каталог
                             </button>
                         </div>
@@ -188,9 +188,9 @@
             <ul class="nav complex__header__footer__nav">
                 <li>
                     <a href="#catalogModal" data-bs-toggle="modal" class="complex__header__toggle-catalog">
-                        <svg width="24" height="16" class="ico mr-24">
-                            <use xlink:href="#svg-toggle"></use>
-                        </svg>
+                        <div class="ico-toggle mr-24">
+                            <span></span>
+                        </div>
                         Каталог
                     </a>
                 </li>

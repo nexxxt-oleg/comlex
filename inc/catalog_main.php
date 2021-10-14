@@ -1,7 +1,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -48,7 +48,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -94,7 +94,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6 ">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -140,7 +140,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6 ">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -186,7 +186,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6 ">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -232,7 +232,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6 ">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -278,7 +278,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -324,7 +324,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -370,7 +370,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -416,7 +416,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -462,7 +462,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -508,7 +508,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -554,7 +554,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -600,7 +600,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -646,7 +646,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""
@@ -674,7 +674,7 @@
 <div class="col-xl-3 col-lg-4 col-md-6 col-6">
     <aside class="complex__card-catalog">
         <a href="" class="complex__card-catalog__main">
-            <div class="complex__card-catalog__main__pic">
+            <div class="complex__card-catalog__main__pic complex__card__images">
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      class="lazy"
                      alt=""

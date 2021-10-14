@@ -17,14 +17,14 @@ include_once __DIR__ . '/inc/header.php';
                     <ul class="nav complex__product__events">
                         <li>
                             <a class="complex__product__events2__item">
-                                <svg width="24" height="22">
+                                <svg width="18" height="17">
                                     <use xlink:href="#svg-fav"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
                             <a class="complex__product__events2__item">
-                                <svg width="18" height="24">
+                                <svg width="15" height="19">
                                     <use xlink:href="#svg-compare"></use>
                                 </svg>
                             </a>
@@ -375,7 +375,8 @@ include_once __DIR__ . '/inc/header.php';
             <div class="float-start col-lg-6 clear-left">
                 <div class="fpad50">
                     <h3>Описание</h3>
-                    <p>Пароконвектомат Rational iCombi Classic 6-1/1 объединяет в себе работу нескольких человек, без
+                    <p>Пароконвектомат <a href="">Rational iCombi Classic 6-1/1</a> объединяет в себе работу нескольких
+                        человек, без
                         необходимости их присутствия на кухне. Пароконвектомат, который умеет жарить, готовить на гриле,
                         выпекать, готовить во фритюре, тушить и готовить на пару. Который надежен в работе, прост в
                         управлении и соответствует меняющимся требованиям профессиональной кухни.</p>
@@ -457,10 +458,67 @@ include_once __DIR__ . '/inc/header.php';
             <div class="float-end col-lg-6  clear-right">
                 <div class="fpad50">
                     <h3>Файлы для скачивания</h3>
+                    <a class="complex__link-pdf" href="" download="">
+                        <span class="complex__link-pdf__title">Каталог Rational iCombi Classic</span>
+                        <span class="complex__link-pdf__size">11 мб</span>
+                    </a>
+                    <a class="complex__link-pdf" href="" download="">
+                        <span class="complex__link-pdf__title">Каталог Rational iCombi Classic</span>
+                        <span class="complex__link-pdf__size">11 мб</span>
+                    </a>
+                    <a class="complex__link-pdf" href="" download="">
+                        <span class="complex__link-pdf__title">Каталог Rational iCombi Classic</span>
+                        <span class="complex__link-pdf__size">11 мб</span>
+                    </a>
+                    <a class="complex__link-pdf" href="" download="">
+                        <span class="complex__link-pdf__title">Каталог Rational iCombi Classic</span>
+                        <span class="complex__link-pdf__size">11 мб</span>
+                    </a>
                 </div>
             </div>
             <div class="float-end col-lg-6 fpad50 clear-right">
                 <h3>Видео</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/UAkkWR1AWl0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="complex__product__accessories fpad50">
+            <div class="complex__title2">Аксессуары</div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 fpad30">
+                    <?php
+                    include __DIR__ . '/inc/item-product2.php';
+                    ?>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 fpad30">
+                    <?php
+                    include __DIR__ . '/inc/item-product2.php';
+                    ?>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 fpad30">
+                    <?php
+                    include __DIR__ . '/inc/item-product2.php';
+                    ?>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 fpad30">
+                    <a href="" class="complex__all-link h-100">
+                        <span class="complex__all-link__number">+32</span>
+                        <div class="text-center">
+                            <span class="complex__all-link__caption">Все аксессуары</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="complex__carousel">
+            <div class="complex__title2">Похожие товары</div>
+            <div class="complex__carousel__wrap">
+                <?php
+                include __DIR__ . '/inc/carousel.php';
+                ?>
             </div>
         </div>
     </div>

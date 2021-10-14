@@ -499,4 +499,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
+    if (document.getElementsByClassName("complex__slider-product").length) {
+        let swiperCatalog = new Swiper('.complex__slider-product', {
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
+            slidesPerView: 4,
+            lazy: true,
+            observer: true,
+            observeParents: true,
+            spaceBetween: 30,
+
+            //loop: true,
+            //simulateTouch: false,
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                440: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                600: {
+                    slidesPerView: 2,
+                },
+                991: {
+                    slidesPerView: 3,
+                },
+                1280: {
+                    slidesPerView: 4,
+                },
+            },
+            on: {
+                init: function () {
+
+                },
+            },
+        });
+    }
+
 });
