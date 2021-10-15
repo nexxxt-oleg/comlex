@@ -66,8 +66,8 @@ include_once __DIR__ . '/inc/header.php';
                 </a>
                 <a href=""
                    class="complex__home-banner__item  complex__home-banner__item--min complex__home-banner__item--b4">
-                    <div class="complex__home-banner__item__bg lazy" data-bg="./img/baner4.png"></div>
-                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover">
+                    <div class="complex__home-banner__item__bg complex__home-banner__item__bg--not-zoom lazy" data-bg="./img/map-home.jpg"></div>
+                    <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover lazy" data-bg="./img/map-home-hover.png">
                         <div>
                             Доставки по всей России<br>
                             <small>Лучшими транспортными<br>

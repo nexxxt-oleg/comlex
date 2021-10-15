@@ -205,12 +205,15 @@ include_once __DIR__ . '/inc/header.php';
                         Артикул: <b>815769</b>
                     </div>
                     <div class="complex__product__brand d-flex align-items-center">
-                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                             data-src="./img/brand_logo.png"
-                             data-srcset="./img/brand_logo.png 1x, ./img/brand_logo@2.png 2x"
-                             alt=""
-                             class="lazy"
-                        >
+                        <a href="" class="complex__product__brand__ico">
+                            <img
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                    data-src="./img/brand_logo.png"
+                                    data-srcset="./img/brand_logo.png 1x, ./img/brand_logo@2.png 2x"
+                                    alt=""
+                                    class="lazy"
+                            >
+                        </a>
                         <a href="" class="complex__product__brand__links">Все товары бренда</a>
                     </div>
                 </div>
@@ -227,7 +230,7 @@ include_once __DIR__ . '/inc/header.php';
                     </div>
                     <div class="row complex__product__btns__row">
                         <div class="col-lg-8 col-12 d-flex fpad20">
-                            <div class="complex__product__count-box">
+                            <div class="complex__product__count-box" id="productCount">
                                 <div class="complex__product__count complex__product__count--h44 d-flex">
                                     <span class="complex__product__count__minus">
                                         <svg width="12" height="2" class="ico">
@@ -243,15 +246,16 @@ include_once __DIR__ . '/inc/header.php';
                                 </div>
                             </div>
                             <div class="complex__product__btns__bay">
-                                <button class="complex__btn complex__btn--blue complex__btn--h44">В корзину</button>
+                                <button onclick="document.getElementById('productCount').classList.add('active')" class="complex__btn complex__btn--blue complex__btn--h44">В корзину</button>
                             </div>
                         </div>
                         <div class="col-lg-4 col-6 fpad20">
                             <button class="complex__btn complex__btn--green complex__btn--h44">Купить в 1 клик</button>
                         </div>
                         <div class="col-lg-8 col-6 fpad20">
-                            <button class="complex__btn complex__btn--bord complex__btn--h44">Получить коммерческое
-                                предложение
+                            <button class="complex__btn complex__btn--bord complex__btn--h44">
+                                <span class="text-pc">Получить коммерческое предложение</span>
+                                <span class="text-mob">Коммерческое предложение</span>
                             </button>
                         </div>
                     </div>
@@ -278,7 +282,8 @@ include_once __DIR__ . '/inc/header.php';
                 </div>
                 <div class="border-bottom tpad30 fpad30">
                     <div class="complex__product__delivery">
-                        <span>Доставка: <a href="" class="mr-10">Санкт-Петербург</a> от 1 000 руб.</span>
+                        <span class="d-flex">Доставка: <span class="complex__product__delivery__text"><a href=""
+                                                                                                         class="mr-10">Санкт-Петербург</a> от 1 000 руб.</span></span>
                     </div>
                 </div>
                 <div class="complex__product__row-footer">
@@ -519,6 +524,11 @@ include_once __DIR__ . '/inc/header.php';
                 <?php
                 include __DIR__ . '/inc/carousel.php';
                 ?>
+            </div>
+        </div>
+        <div class="fpad100">
+            <div class="complex__alert-warning">
+                <span>Доставка, разгрузка и подключение не входят в стоимость оборудования. Стоимость данных услуг уточняйте у наших менеджеров.</span>
             </div>
         </div>
     </div>
