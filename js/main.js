@@ -463,6 +463,41 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    if (document.getElementById('projThumbSingle')) {
+        let projThumbSingle = new Swiper('#projThumbSingle', {
+            loop: false,
+            spaceBetween: 30,
+            slidesPerView: 6,
+            freeMode: true,
+            watchSlidesProgress: true,
+            lazy: true,
+            breakpoints: {
+                300: {
+                    spaceBetween: 10,
+                },
+                576: {
+                    spaceBetween: 10,
+                },
+                1200: {
+                    spaceBetween: 30,
+                },
+            },
+        });
+        new Swiper('#projSingle', {
+            loop: false,
+            spaceBetween: 10,
+            lazy: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            thumbs: {
+                swiper: projThumbSingle,
+            },
+        });
+    }
+
     if (document.getElementById('productBig')) {
 
         let productMin = new Swiper('#productMin', {

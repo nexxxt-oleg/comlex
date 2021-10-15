@@ -26,11 +26,13 @@ include_once __DIR__ . '/inc/header.php';
         <div class="row">
             <div class="col col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -40,11 +42,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -54,11 +58,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -68,11 +74,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -82,11 +90,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -96,11 +106,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -110,11 +122,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
@@ -124,11 +138,13 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-xl-3 col-lg-4 col-md-6  fpad30">
                 <a href="" class="complex__card complex__card--action">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy complex__card__pic complex__card__pic--h2"
-                         alt=""
-                         data-src="./img/art2.jpg"
-                         data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    <div class="complex__card__images">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                             class="lazy complex__card__pic complex__card__pic--h2"
+                             alt=""
+                             data-src="./img/art2.jpg"
+                             data-srcset="./img/art2.jpg 1x, ./img/art2@2.jpg 2x"/>
+                    </div>
                     <div class="complex__card__title">
                         Специальное предложение
                         на тепловое оборудование
