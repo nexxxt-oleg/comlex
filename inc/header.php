@@ -131,7 +131,8 @@
                                                 <span class="toggle-ico__center"></span>
                                                 <span class="toggle-ico__bottom"></span>
                                             </div>
-                                            Каталог
+                                            <span class="text-pc">Каталог </span>
+                                            <span class="text-mob">Каталог товаров</span>
                                         </a>
                                     </li>
                                     <li class="complex__header__middle__right__mob-search">

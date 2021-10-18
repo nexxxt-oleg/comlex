@@ -24,7 +24,7 @@ include_once __DIR__ . '/inc/header.php';
                 <div class="col-lg-6 fpad30">
                     <h3>Описание</h3>
                     <p>Уютное заведение в самом центре шумной Москвы ул. Большая Никитская д.24/1с6. Кафе порадует вас
-                        приятными ценами и теплой атмосферой. На нижнем уровне здания находится кулинария, где вы
+                        приятными ценами и теплой атмосферой. На нижнем уровне здания находится кулинария, где вы
                         всегда можете приобрести блюда домашней кухни (реализация на вынос).</p>
                     <br>
                     <h3>Характеристика объекта</h3>
@@ -82,25 +82,33 @@ include_once __DIR__ . '/inc/header.php';
                 </div>
             </div>
         </div>
-        <div class="border-bottom d-flex">
-            <a href="./img/letter@2.jpg" class="complex__project-letter d-flex align-items-center" data-fancybox="letter">
-                <div class="complex__project-letter__img">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                         class="lazy"
-                         alt=""
-                         data-src="./img/letter.jpg"
-                         data-srcset="./img/letter.jpg 1x, ./img/letter@2.jpg 2x"/>
+        <div class="border-bottom tpad30 fpad30">
+            <div class="row  justify-content-center">
+                <div class="col-xl-4 col-lg-5">
+                    <a href="./img/letter@2.jpg" class="complex__project-letter d-flex align-items-center"
+                       data-fancybox="letter">
+                        <div class="complex__project-letter__img">
+                            <figure>
+                                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                     class="lazy"
+                                     alt=""
+                                     data-src="./img/letter.jpg"
+                                     data-srcset="./img/letter.jpg 1x, ./img/letter@2.jpg 2x"/>
+                            </figure>
+                        </div>
+                        <div class="complex__project-letter__caption">
+                            Благодарственное письмо
+                        </div>
+                    </a>
                 </div>
-                <div class="complex__project-letter__caption">
-                    Благодарственное письмо
-                </div>
-            </a>
+            </div>
         </div>
         <div class="border-bottom">
             <div class="row justify-content-center">
-                <div class="col-lg-8 fpad50 tpad50">
-                    <div class="complex__projects__item__slider">
-                        <div class="swiper project-images" id="projSingle">
+                <div class="col-lg-8 fpad20 tpad50">
+                    <div class="complex__projects__item__slider complex__projects__item__slider--proj">
+                        <div class="position-relative">
+                            <div class="swiper project-images" id="projSingle">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="./img/proj@2.jpg" class="project-images__zoom"
@@ -177,7 +185,17 @@ include_once __DIR__ . '/inc/header.php';
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-
+                            <div id="projSinglePrev" class="button-prev complex__slider-nav">
+                                <svg width="7" height="14" class="ico">
+                                    <use xlink:href="#svg-left"></use>
+                                </svg>
+                            </div>
+                            <div id="projSingleNext" class="button-next complex__slider-nav">
+                                <svg width="7" height="14" class="ico">
+                                    <use xlink:href="#svg-right"></use>
+                                </svg>
+                            </div>
+                        </div>
                         <div class="swiper project-thumbs" id="projThumbSingle">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -234,6 +252,24 @@ include_once __DIR__ . '/inc/header.php';
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row tpad50 justify-content-center fpad70">
+            <div class="col-xl-4 col-lg-6 fpad30 order-xl-1 order-lg-1 order-2">
+                <a href="" class="complex__projects__nav__btn" >
+                    <svg width="4" height="8" class="ico mr-10">
+                        <use xlink:href="#svg-left"></use>
+                    </svg>
+                    Назад в проекты
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-6 fpad30 order-1 order-mxl-2 order-lg-2">
+                <a href="" class="complex__projects__nav__btn" >
+                    Следующий проект
+                    <svg width="4" height="8" class="ico ml-10">
+                        <use xlink:href="#svg-right"></use>
+                    </svg>
+                </a>
             </div>
         </div>
     </div>

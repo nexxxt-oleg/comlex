@@ -393,17 +393,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     if (document.getElementById('projectSlider')) {
-        const projectSlider = new Swiper('#projectSlider', {
-            effect: 'fade',
-            autoHeight: true,
-            fadeEffect: {
-                crossFade: true
-            },
-            navigation: {
-                nextEl: '#sl-next',
-                prevEl: '#sl-prev',
-            },
-        });
+
 
         const imageSliders = document.querySelectorAll('.complex__projects__item__slider');
         let numberSlider = 1;
@@ -450,6 +440,18 @@ document.addEventListener("DOMContentLoaded", () => {
             numberSlider++;
         });
 
+        let projectSlider = new Swiper('#projectSlider', {
+           effect: 'fade',
+            autoHeight: true,
+            fadeEffect: {
+                crossFade: true
+            },
+            navigation: {
+                nextEl: '#sl-next',
+                prevEl: '#sl-prev',
+            },
+        });
+
     }
 
     if (document.getElementById('objSliderTop') && screen.width < 769) {
@@ -491,7 +493,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-
+            navigation: {
+                nextEl: '#projSingleNext',
+                prevEl: '#projSinglePrev',
+            },
             thumbs: {
                 swiper: projThumbSingle,
             },
