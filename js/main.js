@@ -441,7 +441,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         let projectSlider = new Swiper('#projectSlider', {
-           effect: 'fade',
+            effect: 'fade',
             autoHeight: true,
             fadeEffect: {
                 crossFade: true
@@ -578,6 +578,102 @@ document.addEventListener("DOMContentLoaded", () => {
                 },
             },
         });
+    }
+
+    function setEqualHeight(elements) {
+        var mainDivs = document.getElementsByClassName(elements);
+        var maxHeight = 0;
+        for (var i = 0; i < mainDivs.length; ++i) {
+            if (maxHeight < mainDivs[i].clientHeight) {
+                maxHeight = mainDivs[i].clientHeight;
+            }
+        }
+        for (var i = 0; i < mainDivs.length; ++i) {
+            mainDivs[i].style.minHeight = maxHeight + "px";
+        }
+    }
+
+    function activeSlideCompare() {
+        let compareSlider = new Swiper('#compareSlider', {
+
+            navigation: {
+                nextEl: '#compareNext',
+                prevEl: '#comparePrev',
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            lazy: true,
+            //loop: true,
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    navigation: {
+                        nextEl: '#compareSlider .button-next',
+                        prevEl: '#compareSlider .button-prev',
+                    },
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: '#compareNext',
+                        prevEl: '#comparePrev',
+                    },
+                },
+                1280: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    navigation: {
+                        nextEl: '#compareNext',
+                        prevEl: '#comparePrev',
+                    },
+                },
+            },
+            on: {
+                init: function () {
+                    sinfroCompareRow();
+                },
+                resize: function () {
+                    sinfroCompareRow();
+                }
+            },
+
+        });
+
+
+    }
+
+    function sinfroCompareRow() {
+        let rowCompare = [].slice.call(document.querySelectorAll('.js-compare-props li'))
+        rowCompare.forEach(function (e) {
+            setEqualHeight(e.dataset.sinhro);
+        });
+    }
+
+
+    if (document.getElementById('compareSlider')) {
+        activeSlideCompare();
+
+
+        let compareSlider2 = new Swiper('#compareSlider2', {
+
+            navigation: {
+                nextEl: '#compareSlider2 .button-next',
+                prevEl: '#compareSlider2 .button-prev',
+            },
+            slidesPerView: 1,
+            lazy: true,
+
+            on: {
+                init: function () {
+
+                },
+            }
+        });
+
+        compareSlider2.slideTo(1);
+
     }
 
 });

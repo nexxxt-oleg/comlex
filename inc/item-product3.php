@@ -34,12 +34,12 @@
             <div class="swiper-lazy-preloader"></div>
         </a>
         <div class="d-flex align-items-center justify-content-between fpad15">
-                    <span class="complex__products__item__art">
-                        Арт: 815328
-                    </span>
+            <span class="complex__products__item__art">
+                Арт: 815328
+            </span>
             <span class="complex__products__item__status complex__products__item__status--in-stock">
-                        Есть в наличии
-                    </span>
+                    Есть в наличии
+                </span>
         </div>
         <a href="" class="complex__products__item__desc">
             <h3 class="complex__products__item__title">
