@@ -2455,6 +2455,13 @@ input:active {
     .complex__btn--bord:hover {
       border-color: #08529a;
       color: #08529a; }
+  .complex__btn--bord-green {
+    color: #53ac1d;
+    border: 1px solid #53ac1d;
+    background: transparent; }
+    .complex__btn--bord-green:hover {
+      border-color: #367013;
+      color: #367013; }
   .complex__btn--yellow {
     background: #fdc511;
     border: none;
@@ -4547,6 +4554,29 @@ input:active {
   font-size: 16px;
   line-height: 24px; }
 
+.complex__cart__cost-row {
+  padding-top: 30px; }
+  .complex__cart__cost-row__wrap {
+    padding: 0 15px 50px; }
+    .complex__cart__cost-row__wrap div {
+      padding: 5px 0;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: bold; }
+      .complex__cart__cost-row__wrap div.complex__cart__itog {
+        font-weight: 900; }
+
+.nav--otlog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60px; }
+  .nav--otlog .ico-cart {
+    color: #1b66af; }
+
 @media (max-width: 991px) {
   .complex__cart__header {
     display: none; }
@@ -4579,7 +4609,22 @@ input:active {
       display: none; }
     .complex__cart__item__bottom-row .complex__products__item__all-cost {
       display: block;
-      padding-top: 10px; } }
+      padding-top: 10px; }
+
+  .complex__cart__cost-row {
+    padding-top: 10px; }
+
+  .complex__cart__cost-row__wrap {
+    padding: 0 0 20px; }
+
+  .nav--otlog {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+    .nav--otlog li {
+      padding-bottom: 10px; } }
 @media (max-width: 575px) {
   .complex__cart {
     border: none; }
@@ -4600,7 +4645,12 @@ input:active {
       padding: 0 10px; }
     .complex__cart__item .complex__cart__col2 {
       padding-right: 10px;
-      top: 10px; } }
+      top: 10px; }
+
+  .complex__cart__cost-row__wrap div {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 2px 0; } }
 @media (max-width: 1399px) {
   .complex__header__top__nav li:not(:last-child) {
     padding-right: 10px; }

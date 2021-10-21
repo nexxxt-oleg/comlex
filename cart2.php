@@ -10,10 +10,10 @@ include_once __DIR__ . '/inc/header.php'
         <div class="d-xl-flex d-lg-flex d-none fpad30">
             <ul class="nav nav--tabs">
                 <li>
-                    <a href="" class="active">Готовые к заказу <sup class="color_blue">3</sup></a>
+                    <a href="" >Готовые к заказу <sup class="color_blue">3</sup></a>
                 </li>
                 <li>
-                    <a href="">Отложенные <sup class="color_blue">3</sup></a>
+                    <a href="" class="active">Отложенные <sup class="color_blue">3</sup></a>
                 </li>
             </ul>
             <div class="ml-auto pt-3">
@@ -98,12 +98,22 @@ include_once __DIR__ . '/inc/header.php'
                                 <span class="fonts16 font-bold complex__products__item__all-cost">3 087 000 руб.</span>
                             </div>
                             <div class="complex__cart__col2">
-                                <a href="" class="d-flex align-items-center all-clear">
-                                    <svg width="13" height="13" class="ico mr-10">
-                                        <use xlink:href="#svg-close"></use>
-                                    </svg>
-                                    <span>Удалить</span>
-                                </a>
+                                <ul class="nav nav--otlog">
+                                    <li>
+                                        <a class="ico-cart" >
+                                            <svg width="18" height="18">
+                                                <use xlink:href="#svg-cart"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex align-items-center all-clear">
+                                            <svg width="13" height="13" class="ico">
+                                                <use xlink:href="#svg-close"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -157,12 +167,22 @@ include_once __DIR__ . '/inc/header.php'
                                 <span class="fonts16 font-bold complex__products__item__all-cost">3 087 000 руб.</span>
                             </div>
                             <div class="complex__cart__col2">
-                                <a href="" class="d-flex align-items-center all-clear">
-                                    <svg width="13" height="13" class="ico mr-10">
-                                        <use xlink:href="#svg-close"></use>
-                                    </svg>
-                                    <span>Удалить</span>
-                                </a>
+                                <ul class="nav nav--otlog">
+                                    <li>
+                                        <a class="ico-cart">
+                                            <svg width="18" height="18">
+                                                <use xlink:href="#svg-cart"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex align-items-center all-clear">
+                                            <svg width="13" height="13" class="ico">
+                                                <use xlink:href="#svg-close"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -216,42 +236,29 @@ include_once __DIR__ . '/inc/header.php'
                                 <span class="fonts16 font-bold complex__products__item__all-cost">3 087 000 руб.</span>
                             </div>
                             <div class="complex__cart__col2">
-                                <a href="" class="d-flex align-items-center all-clear">
-                                    <svg width="13" height="13" class="ico mr-10">
-                                        <use xlink:href="#svg-close"></use>
-                                    </svg>
-                                    <span>Удалить</span>
-                                </a>
+                                <ul class="nav nav--otlog">
+                                    <li>
+                                        <a class="ico-cart">
+                                            <svg width="18" height="18">
+                                                <use xlink:href="#svg-cart"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex align-items-center all-clear">
+                                            <svg width="13" height="13" class="ico">
+                                                <use xlink:href="#svg-close"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-end complex__cart__cost-row">
-                <div class="col-xl-4 col-lg-6">
-                    <div class="complex__cart__cost-row__wrap">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <span>В корзине 3 товара на:</span>
-                            <span>3 317 919 руб.</span>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-between complex__cart__itog">
-                            <span class="text-uppercase">ИТОГО:</span>
-                            <span>3 317 919 руб.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 fpad15 d-none d-xl-block d-lg-block">
-                    <a href="" class="complex__btn complex__btn--bord-green complex__btn--h44">Продолжить покупки</a>
-                </div>
-                <div class="col-xl-3 col-lg-4 fpad15 ml-auto">
-                    <a href="" class="complex__btn complex__btn--bord complex__btn--h44">Коммерческое предложение</a>
-                </div>
-                <div class="col-xl-3 col-lg-4 fpad15">
-                    <a href="" class="complex__btn complex__btn--blue complex__btn--h44">Оформить заказ</a>
-                </div>
-            </div>
+
         </div>
     </div>
 <?php
