@@ -1248,6 +1248,8 @@ input:active {
     text-decoration: underline;
     font-size: 14px;
     line-height: 18px; }
+    .complex__contact-info a:hover {
+      font-weight: bold; }
   .complex__contact-info span {
     display: block;
     font-size: 14px;
@@ -1733,7 +1735,7 @@ input:active {
   border-radius: 6px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
-  .complex__card__images::after {
+  .complex__card__images:not(.not-shine)::after {
     position: absolute;
     top: 0;
     left: -45%;
@@ -1751,6 +1753,9 @@ input:active {
     -webkit-animation: shine .5s;
     animation: shine .5s;
     opacity: 1; }
+
+b, strong {
+  font-weight: bold; }
 
 .complex__products__item__img {
   position: relative;
@@ -1791,6 +1796,10 @@ input:active {
 
 .lpad15 {
   padding-left: 15px; }
+
+.fonts22 {
+  font-size: 22px;
+  line-height: 30px; }
 
 .complex__home-banner {
   grid-template-rows: repeat(4, 1fr);
@@ -1946,7 +1955,8 @@ input:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 0 5px; }
+  padding: 15px 0 5px;
+  text-decoration: none; }
   .complex__home-adv__ico {
     -ms-flex-preferred-size: 100px;
         flex-basis: 100px;
@@ -1963,6 +1973,9 @@ input:active {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold; }
+
+a.complex__home-adv:hover {
+  color: #1b66af; }
 
 .ico-h-90 {
   display: block;
@@ -2138,6 +2151,14 @@ input:active {
     .complex__certificates__item:hover::before {
       border-bottom-color: #1b66af; }
 
+a,
+.complex__footer__requisite__caption,
+.complex__footer {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
 .complex__certificates {
   margin-bottom: 90px; }
 
@@ -2148,7 +2169,11 @@ input:active {
     font-size: 20px;
     line-height: 24px;
     font-weight: bold;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
   .complex__viewed .swiper-slide {
     padding: 10px 0; }
   .complex__viewed__item {
@@ -2160,7 +2185,11 @@ input:active {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
     .complex__viewed__item__pic {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2253,6 +2282,38 @@ input:active {
   font-size: 14px; }
 .complex__alphabet-middle__brand:hover {
   color: #1b66af; }
+
+.complex__contact-box__title {
+  padding-left: 35px;
+  position: relative;
+  margin-bottom: 10px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold; }
+  .complex__contact-box__title svg {
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 0;
+    color: #1b66af; }
+.complex__contact-box__text {
+  padding-left: 35px; }
+  .complex__contact-box__text p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px; }
+  .complex__contact-box__text .tel {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none; }
+    .complex__contact-box__text .tel:hover {
+      color: #1b66af; }
+  .complex__contact-box__text .mail {
+    color: #1b66af; }
+    .complex__contact-box__text .mail:hover {
+      font-weight: bold; }
 
 .complex__cat {
   position: relative;
@@ -3171,6 +3232,28 @@ input:active {
 
 .complex__cat-item:hover .complex__cat-item__title {
   color: #1b66af; }
+
+.complex__btn--w-auto {
+  width: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important; }
+
+.complex__map {
+  height: 320px;
+  margin-bottom: 30px; }
+
+.border-bottom2 {
+  border-bottom: 1px solid #fdc511; }
+
+.text-left {
+  text-align: left !important; }
+
+.complex__feedback__header__text2 {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  display: block; }
 
 /*! nouislider - 14.7.0 - 4/6/2021 */
 /* Functional styling;

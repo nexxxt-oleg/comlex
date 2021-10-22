@@ -69,7 +69,7 @@ include_once __DIR__ . '/inc/header.php';
                     <div class="complex__home-banner__item__bg complex__home-banner__item__bg--not-zoom lazy" data-bg="./img/map-home.jpg"></div>
                     <div class="complex__home-banner__item__caption text-white complex__home-banner__item__caption--hover lazy" data-bg="./img/map-home-hover.png">
                         <div>
-                            Доставки по всей России<br>
+                            Доставка по всей России<br>
                             <small>Лучшими транспортными<br>
                                 компаниями</small>
                         </div>
@@ -103,59 +103,59 @@ include_once __DIR__ . '/inc/header.php';
     <div class="container">
         <div class="row tpad50 fpad50">
             <div class="col-md-6 col-xl-3">
-                <div class="complex__home-adv">
-                    <div class="complex__home-adv__ico">
+                <a class="complex__home-adv" href="">
+                    <div class="complex__home-adv__ico pt-0">
                         <svg width="48" height="41">
                             <use xlink:href="#svg-adv1"></use>
                         </svg>
                     </div>
-                    <div class="complex__home-adv__text">
-                        Все в одном месте <br>и под ключ
+                    <div class="complex__home-adv__text mt-auto mb-auto">
+                        <b>Все в одном месте <br>и под ключ</b>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-6 col-xl-3">
-                <div class="complex__home-adv">
-                    <div class="complex__home-adv__ico">
+                <a href="" class="complex__home-adv">
+                    <div class="complex__home-adv__ico pt-0">
                         <svg width="48" height="45">
                             <use xlink:href="#svg-adv2"></use>
                         </svg>
                     </div>
-                    <div class="complex__home-adv__text">
-                        Отгружаем технику <br>круглосуточно
+                    <div class="complex__home-adv__text mt-auto mb-auto">
+                        <b>Отгружаем технику <br>круглосуточно</b>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-6 col-xl-3">
-                <div class="complex__home-adv">
-                    <div class="complex__home-adv__ico">
+                <a href="" class="complex__home-adv">
+                    <div class="complex__home-adv__ico pt-0">
                         <svg width="48" height="48">
                             <use xlink:href="#svg-adv3"></use>
                         </svg>
                     </div>
-                    <div class="complex__home-adv__text">
-                        Работаем напрямую с<br> производителями
+                    <div class="complex__home-adv__text mt-auto mb-auto">
+                        <b>Готовые решения для<br> вашего бизнеса</b>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-6 col-xl-3">
-                <div class="complex__home-adv">
-                    <div class="complex__home-adv__ico">
+                <a href="" class="complex__home-adv">
+                    <div class="complex__home-adv__ico pt-0">
                         <svg width="48" height="48">
                             <use xlink:href="#svg-adv4"></use>
                         </svg>
                     </div>
-                    <div class="complex__home-adv__text">
-                        У нас собственная <br>сервисная служба
+                    <div class="complex__home-adv__text mt-auto mb-auto">
+                        <b>У нас собственная <br>сервисная служба</b>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
         <div class="row fpad50">
             <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
-                    <div class="complex__card__images">
+                    <div class="complex__card__images not-shine">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                              class="lazy complex__card__pic complex__card__pic--h2"
                              alt=""
@@ -171,7 +171,7 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
-                    <div class="complex__card__images">
+                    <div class="complex__card__images not-shine">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                              class="lazy complex__card__pic complex__card__pic--h2"
                              alt=""
@@ -187,7 +187,7 @@ include_once __DIR__ . '/inc/header.php';
             </div>
             <div class="col-12 col-lg-3 col-md-6 fpad30">
                 <a href="" class="complex__card">
-                    <div class="complex__card__images">
+                    <div class="complex__card__images not-shine">
                         <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                              class="lazy complex__card__pic complex__card__pic--h2"
                              alt=""
