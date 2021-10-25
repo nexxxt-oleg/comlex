@@ -3255,6 +3255,59 @@ a,
   line-height: 24px;
   display: block; }
 
+.complex__ico-col {
+  -ms-flex-preferred-size: 70px;
+      flex-basis: 70px;
+  padding-right: 30px; }
+
+.complex__text-col {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.complex__list-ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: myCounter; }
+  .complex__list-ol li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 32px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 70px; }
+    .complex__list-ol li::before {
+      counter-increment: myCounter;
+      content: counter(myCounter);
+      color: #fff;
+      background: #1b66af;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      line-height: 1;
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 17px; }
+
 /*! nouislider - 14.7.0 - 4/6/2021 */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
@@ -5529,7 +5582,10 @@ a,
       font-size: 24px; }
 
   .complex__adv-number__bottom {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .complex__border-box__ico {
+    height: 90px; } }
 @media (max-width: 575px) {
   #catalogModal {
     top: 82px; }
